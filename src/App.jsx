@@ -1,14 +1,17 @@
 import NavBar from './components/NavBar';
-import Header from './components/Header';
-import './App.css'
+import Body from './components/Body';
+import { Footer } from 'flowbite-react';
+
+
+import './App.css';
 
 function App() {
   return (
     <>
-      <NavBar />
-      <Header />
-      
-    </>
+      <NavBar /> 
+      <Body />
+      <Footer />
+    </>  
   )
 }
 
