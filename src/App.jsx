@@ -1,6 +1,7 @@
 import NavBar from './components/NavBar';
 import Body from './components/Body';
-import { Footer } from 'flowbite-react';
+import MyFooter from './components/MyFooter';
+
 
 
 import './App.css';
@@ -10,7 +11,7 @@ function App() {
     <>
       <NavBar /> 
       <Body />
-      <Footer />
+      <MyFooter />
     </>  
   )
 }
